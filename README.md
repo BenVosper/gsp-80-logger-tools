@@ -1,8 +1,14 @@
 # GSP-80 logger tools
 
 Two small Python tools for the **AIKESI / CHNADKS GSP-80S** temperature & humidity logger,
-so you can use it from Linux without the vendor's Windows/Excel software. Only the GSP-80S
-has been tested. The GSP-80Pro and GSP-70 variants very likely run the same firmware (it
+so you can use it from Linux without the vendor's Windows/Excel software. 
+
+#### Models tested and working:
+
+ - **GSP-80S** (with sensor unit attached to main body)
+ - **GSP-80Pro** (with sensor unit on long cable)
+
+The GSP-70 variants (which have temperature only) very likely run the same firmware (it
 auto-detects the probe type) and should work too; see
 [docs/INTERNALS.md](docs/INTERNALS.md#model-variants-what-is-known).
 
